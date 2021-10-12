@@ -24,12 +24,12 @@ namespace DisplayMonkey
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            help.HRef = Info.HelpUri(Request, "presentation").OriginalString;
-            help.Attributes["onclick"] = string.Format(
-                "window.open('{0}','{1}','width=1280,height=900,resizable=1,scrollbars=1'); return false;",
-                help.HRef, 
-                Resources.Help
-                );
+            //help.HRef = Info.HelpUri(Request, "presentation").OriginalString;
+            //help.Attributes["onclick"] = string.Format(
+            //    "window.open('{0}','{1}','width=1280,height=900,resizable=1,scrollbars=1'); return false;",
+            //    help.HRef, 
+            //    Resources.Help
+            //    );
         }
 
         public static IHtmlString ProductVersion

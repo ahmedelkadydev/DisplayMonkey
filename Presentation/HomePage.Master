@@ -1,12 +1,3 @@
-<!--
-* DisplayMonkey source file
-* http://displaymonkey.org
-*
-* Copyright (c) 2015 Fuel9 LLC and contributors
-*
-* Released under the MIT license:
-* http://opensource.org/licenses/MIT
--->
 
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.Master.cs" Inherits="DisplayMonkey.HomePage" %>
 
@@ -14,9 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <meta charset="utf-8" />
-        <title>Display Monkey</title>
+        <title>Compuc Digital Signage</title>
         
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+       <%-- <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />--%>
         <link rel="apple-touch-icon" sizes="57x57" href="~/images/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="~/images/apple-touch-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="~/images/apple-touch-icon-72x72.png" />
@@ -60,7 +51,7 @@
             <div class="content-wrapper">
                 <div class="float-left">
                     <p class="site-title">
-                        <a href="Default.aspx"><%=DisplayMonkey.Language.Resources.DisplayMonkey%></a>
+                        <a href="Default.aspx">Compuc Digital Signage</a>
                     </p>
                 </div>
                 <div class="float-right">
@@ -71,8 +62,9 @@
                         <ul class="menu">
                             <li><a href="default.aspx"><%=DisplayMonkey.Language.Resources.Home%></a></li>
                             <li><a href="register.aspx"><%=DisplayMonkey.Language.Resources.RegisterThisDisplay%></a></li>
-                            <li><a href="#" onclick="window.open('help','Help','width=640,height=480,resizable=1,scrollbars=1'); return false;" id="help" target="_blank" runat="server"><%=DisplayMonkey.Language.Resources.Help%></a></li>
-                            <li><a href="http://www.fuel9.com/home/about-us/"><%=DisplayMonkey.Language.Resources.About%></a></li>
+                           
+                          <%--  <li><a href="#" onclick="window.open('help','Help','width=640,height=480,resizable=1,scrollbars=1'); return false;" id="help" target="_blank" runat="server"><%=DisplayMonkey.Language.Resources.Help%></a></li>
+                            <li><a href="http://www.fuel9.com/home/about-us/"><%=DisplayMonkey.Language.Resources.About%></a></li>--%>
                         </ul>
                     </nav>
                 </div>
@@ -88,7 +80,7 @@
             <div class="content-wrapper">
                 <div class="float-left">
                     <p><%=DisplayMonkey.HomePage.ProductVersion %></p>
-                    <p>&copy; <%=DateTime.Now.Year%> - Fuel9.com</p>
+                    <p>&copy; <%=DateTime.Now.Year%> - Compuc.net</p>
                 </div>
             </div>
         </footer>

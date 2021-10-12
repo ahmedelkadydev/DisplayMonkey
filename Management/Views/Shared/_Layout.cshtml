@@ -1,13 +1,4 @@
-﻿<!--
-* DisplayMonkey source file
-* http://displaymonkey.org
-*
-* Copyright (c) 2015 Fuel9 LLC and contributors
-*
-* Released under the MIT license:
-* http://opensource.org/licenses/MIT
--->
-
+﻿
 @{
     string help = Url.Content(Info.HelpUri(HttpContext.Current.Request, "management").OriginalString);
 }
@@ -15,9 +6,9 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>@ViewBag.Title - Display Monkey</title>
+        <title>@ViewBag.Title Compuc Digital Signage</title>
         
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        @*<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />*@
         <link rel="apple-touch-icon" sizes="57x57" href="~/images/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="~/images/apple-touch-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="~/images/apple-touch-icon-72x72.png" />
@@ -97,8 +88,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="@help" onclick="window.open('@help','@Resources.Help','width=1280,height=900,resizable=1,scrollbars=1'); return false;" target="_blank">@Resources.Help</a></li>
-                            <li><a href="http://www.fuel9.com/home/about-us/">@Resources.About</a></li>
+                            @*<li><a href="@help" onclick="window.open('@help','@Resources.Help','width=1280,height=900,resizable=1,scrollbars=1'); return false;" target="_blank">@Resources.Help</a></li>
+                            <li><a href="http://www.fuel9.com/home/about-us/">@Resources.About</a></li>*@
                         </ul>
                     </nav>
                 </div>
@@ -114,7 +105,7 @@
             <div class="content-wrapper">
                 <div class="float-left">
                     <p>@Html.ProductVersion()</p>
-                    <p>&copy; @DateTime.Now.Year - Fuel9.com</p>
+                    <p>&copy; @DateTime.Now.Year - Compuc.net</p>
                 </div>
             </div>
         </footer>

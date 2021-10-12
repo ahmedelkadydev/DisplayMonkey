@@ -39,8 +39,29 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <input type="button" id="fullscreen" onclick="openFullscreen()" value="full" />
     <asp:Literal ID="lContent" runat="server" EnableViewState="False" 
 		ViewStateMode="Disabled" Mode="PassThrough"></asp:Literal>
     </form>
 </body>
+    <script>
+
+        var elem = document.getElementById("form1");
+
+        /* When the openFullscreen() function is executed, open the video in fullscreen.
+        Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+            }
+            var el = document.getElementById('fullscreen');
+            el.remove();
+        }
+   
+     
+    </script>
 </html>
