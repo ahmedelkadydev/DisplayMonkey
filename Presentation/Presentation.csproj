@@ -167,6 +167,7 @@
     <Content Include="files\js\clock.js" />
     <Content Include="files\js\iframe.js" />
     <Content Include="files\js\outlook.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\moment-with-locales.js" />
     <Content Include="Scripts\moment-with-locales.min.js" />
     <Content Include="Scripts\moment.js" />

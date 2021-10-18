@@ -34,34 +34,50 @@
     <meta name="msapplication-TileColor" content="#cc0000">
     <meta name="msapplication-TileImage" content="~/files/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-	
+      
     <asp:Literal ID="lHead" runat="server" Mode="PassThrough" EnableViewState="False"></asp:Literal>
+     
+
+      
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <input type="button" id="fullscreen" onclick="openFullscreen()" value="full" />
+        <input type="button" id="fullscreen" onclick="openFullscreen()" style="font-size:25pt;position:absolute;top:50%;left:42%; z-index:100000000000000" value="Start Presentation" />
+      <div id="con" style="display:none">
     <asp:Literal ID="lContent" runat="server" EnableViewState="False" 
 		ViewStateMode="Disabled" Mode="PassThrough"></asp:Literal>
+       </div>
     </form>
-</body>
-    <script>
+</body>   
+    
+    <script type="text/javascript">
+      
 
-        var elem = document.getElementById("form1");
+           
+            var elem = document.getElementById("screen");
 
-        /* When the openFullscreen() function is executed, open the video in fullscreen.
-        Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
+            /* When the openFullscreen() function is executed, open the video in fullscreen.
+            Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
         function openFullscreen() {
-            if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-            } else if (elem.webkitRequestFullscreen) { /* Safari */
-                elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { /* IE11 */
-                elem.msRequestFullscreen();
+            var elems = document.getElementById("con");
+            elems.removeAttribute("style");
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.webkitRequestFullscreen) { /* Safari */
+                    elem.webkitRequestFullscreen();
+                } else if (elem.msRequestFullscreen) { /* IE11 */
+                    elem.msRequestFullscreen();
+                }
+               
+                //$("#fullscreen").remove();
+
+
             }
-            var el = document.getElementById('fullscreen');
-            el.remove();
-        }
+      
+       
    
      
     </script>
+ 
 </html>

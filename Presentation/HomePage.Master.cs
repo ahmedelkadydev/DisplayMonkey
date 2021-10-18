@@ -28,7 +28,7 @@ namespace DisplayMonkey
             //help.Attributes["onclick"] = string.Format(
             //    "window.open('{0}','{1}','width=1280,height=900,resizable=1,scrollbars=1'); return false;",
             //    help.HRef, 
-            //    Resources.Help
+            //    Resources.Hel
             //    );
         }
 
