@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T08:03:30.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="T_l93C4PubHwbHj8ZWAP" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T08:09:04.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6-nhgxuYaSCx1RxbuFWQ" version="21.3.2" type="github">
   <diagram name="Page-1" id="TvVP--hTTZ7JS1iYv5z9">
     <mxGraphModel dx="1195" dy="1757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -344,7 +344,7 @@
           <mxGeometry x="1145" y="-579" width="105.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BhC0ykpDN5b_gu4P3pER-149" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="686" y="-320" width="649" height="410" as="geometry" />
+          <mxGeometry x="686" y="-320" width="649" height="110" as="geometry" />
         </mxCell>
         <mxCell id="BhC0ykpDN5b_gu4P3pER-177" value="Popup Details" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;whiteSpace=wrap;fontColor=#333333;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="686" y="-340" width="86" height="33" as="geometry" />
@@ -419,6 +419,14 @@
         </mxCell>
         <mxCell id="BhC0ykpDN5b_gu4P3pER-196" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1275" y="-249" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="BhC0ykpDN5b_gu4P3pER-197" value="- User can only see his added Popups and devadmin can see all&lt;br&gt;- In the log form interact and view is clickable with confirm message&lt;br&gt;- in Popup Details form add/Edit is dismissible can&#39;t be true if Dismiss after interact is true&lt;br&gt;- Form save should relay only on json&lt;br&gt;- Form save edit cancel should be based on ajax with no Page refresh." style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;" vertex="1" parent="1">
+          <mxGeometry x="11" y="-900" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BhC0ykpDN5b_gu4P3pER-198" value="" style="shape=mxgraph.mscae.intune.subscription_portal;fillColor=#596780;strokeColor=none;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;html=1;whiteSpace=wrap;spacingLeft=5" vertex="1" parent="BhC0ykpDN5b_gu4P3pER-197">
+          <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
+            <mxPoint x="10" y="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
