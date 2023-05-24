@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T08:09:04.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6-nhgxuYaSCx1RxbuFWQ" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T08:10:31.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="IPACKrescglNeLbqBDmD" version="21.3.2" type="github">
   <diagram name="Page-1" id="TvVP--hTTZ7JS1iYv5z9">
     <mxGraphModel dx="1195" dy="1757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -420,7 +420,7 @@
         <mxCell id="BhC0ykpDN5b_gu4P3pER-196" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1275" y="-249" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="BhC0ykpDN5b_gu4P3pER-197" value="- User can only see his added Popups and devadmin can see all&lt;br&gt;- In the log form interact and view is clickable with confirm message&lt;br&gt;- in Popup Details form add/Edit is dismissible can&#39;t be true if Dismiss after interact is true&lt;br&gt;- Form save should relay only on json&lt;br&gt;- Form save edit cancel should be based on ajax with no Page refresh." style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;" vertex="1" parent="1">
+        <mxCell id="BhC0ykpDN5b_gu4P3pER-197" value="- User can only see his added Popups and devadmin can see all&lt;br&gt;- In the log form interact and view is clickable with confirm message&lt;br&gt;- in Popup Details form add/Edit is dismissible can&#39;t be true if Dismiss after interact is true&lt;br&gt;- Form save should relay only on json&lt;br&gt;- Form save edit cancel should be based on ajax with no Page refresh.&lt;br&gt;- Popup view form must be separated from add edit form" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;" vertex="1" parent="1">
           <mxGeometry x="11" y="-900" width="590" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BhC0ykpDN5b_gu4P3pER-198" value="" style="shape=mxgraph.mscae.intune.subscription_portal;fillColor=#596780;strokeColor=none;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;html=1;whiteSpace=wrap;spacingLeft=5" vertex="1" parent="BhC0ykpDN5b_gu4P3pER-197">
