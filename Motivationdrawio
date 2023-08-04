@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T19:33:14.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ImniPcYaU8GBhH67f0Z_" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T19:35:11.580Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="tIV6IYWQKny3zeMKvIRd" version="21.6.6" type="github">
   <diagram name="Page-1" id="5dcqnqjNWl1222dfZKer">
     <mxGraphModel dx="2092" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,10 +49,10 @@
           <mxGeometry x="180" y="-920" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cv8ihcGZ-VaKpqW_0-4y-21" value="&lt;font color=&quot;#ffffff&quot;&gt;Scores&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0A0A0A;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-920" width="150" height="50" as="geometry" />
+          <mxGeometry x="480" y="-920" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cv8ihcGZ-VaKpqW_0-4y-22" value="&lt;font color=&quot;#ffffff&quot;&gt;Prizes&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0A0A0A;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-920" width="150" height="50" as="geometry" />
+          <mxGeometry x="330" y="-920" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cv8ihcGZ-VaKpqW_0-4y-23" value="&lt;font color=&quot;#ffffff&quot;&gt;Awarded Prizes&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0A0A0A;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="630" y="-920" width="150" height="50" as="geometry" />
@@ -150,10 +150,10 @@
         <mxCell id="cv8ihcGZ-VaKpqW_0-4y-50" value="&lt;font color=&quot;#ffffff&quot;&gt;Grade Classes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-590" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cv8ihcGZ-VaKpqW_0-4y-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="1" source="cv8ihcGZ-VaKpqW_0-4y-51" target="cv8ihcGZ-VaKpqW_0-4y-16">
+        <mxCell id="cv8ihcGZ-VaKpqW_0-4y-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;" edge="1" parent="1" source="cv8ihcGZ-VaKpqW_0-4y-51" target="cv8ihcGZ-VaKpqW_0-4y-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cv8ihcGZ-VaKpqW_0-4y-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;" edge="1" parent="1" source="cv8ihcGZ-VaKpqW_0-4y-51" target="cv8ihcGZ-VaKpqW_0-4y-20">
+        <mxCell id="cv8ihcGZ-VaKpqW_0-4y-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="cv8ihcGZ-VaKpqW_0-4y-51" target="cv8ihcGZ-VaKpqW_0-4y-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cv8ihcGZ-VaKpqW_0-4y-51" value="&lt;font color=&quot;#ffffff&quot;&gt;All those tabs will reflect in in their related tables and the tab will include grid view with add /edit/delete options&lt;/font&gt;" style="text;html=1;strokeColor=#CCFF99;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -165,8 +165,8 @@
         <mxCell id="cv8ihcGZ-VaKpqW_0-4y-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF00FF;" edge="1" parent="1" source="cv8ihcGZ-VaKpqW_0-4y-54" target="cv8ihcGZ-VaKpqW_0-4y-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cv8ihcGZ-VaKpqW_0-4y-54" value="&lt;font color=&quot;#ffffff&quot;&gt;Grid view only&lt;/font&gt;" style="text;html=1;strokeColor=#CCFF99;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="-850" width="270" height="30" as="geometry" />
+        <mxCell id="cv8ihcGZ-VaKpqW_0-4y-54" value="&lt;font color=&quot;#ffffff&quot;&gt;Grid view only and it will show results according to rating type whether it&#39;s student rating or class rating&lt;/font&gt;" style="text;html=1;strokeColor=#CCFF99;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-850" width="380" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
