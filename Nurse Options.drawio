@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T05:54:25.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UAX3AcnvPcHI-luuKbSb" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T05:59:35.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="wBoEKSPaohRotLSlvjGo" version="24.3.1" type="github">
   <diagram name="Page-1" id="crKuEAGFltX46NYWID3b">
     <mxGraphModel dx="2420" dy="2027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -219,9 +219,6 @@
             <mxRectangle width="113" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohvGNoViEB5J8aTvtYbx-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ohvGNoViEB5J8aTvtYbx-51" source="ohvGNoViEB5J8aTvtYbx-56" target="ohvGNoViEB5J8aTvtYbx-56">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ohvGNoViEB5J8aTvtYbx-106" value="" style="dashed=0;shape=rect;fillColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-70" y="-10" width="380" height="60" as="geometry" />
         </mxCell>
@@ -367,10 +364,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ohvGNoViEB5J8aTvtYbx-153" value="Popup Medical Request Status Log View" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="-150" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ohvGNoViEB5J8aTvtYbx-164" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="876.5" y="141.5" width="15" height="118.5" as="geometry" />
+          <mxGeometry x="-550" y="-190" width="60" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ohvGNoViEB5J8aTvtYbx-165" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.checked;" vertex="1" parent="1">
           <mxGeometry x="840" y="116" width="19" height="21" as="geometry" />
@@ -379,9 +373,9 @@
           <mxGeometry x="759" y="119" width="17.5" height="14" as="geometry" />
         </mxCell>
         <mxCell id="ohvGNoViEB5J8aTvtYbx-189" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="664" y="255" width="436" height="540" as="geometry" />
+          <mxGeometry x="541" y="270" width="559" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="ohvGNoViEB5J8aTvtYbx-190" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" vertex="1" parent="1">
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-190" value="There will be a template and she can edit it before sending" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" vertex="1" parent="1">
           <mxGeometry x="690" y="600" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ohvGNoViEB5J8aTvtYbx-192" value="" style="rounded=1;arcSize=9;fillColor=#ffffff;strokeColor=#4C9AFF;html=1;strokeWidth=2;spacingLeft=30;fontColor=#000000;align=left" vertex="1" parent="1">
@@ -438,6 +432,39 @@
         </mxCell>
         <mxCell id="ohvGNoViEB5J8aTvtYbx-205" value="Send" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="990" y="740" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-220" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="89" as="sourcePoint" />
+            <mxPoint x="930" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-221" value="Cancel Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="72" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-222" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ohvGNoViEB5J8aTvtYbx-165">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="-50" as="sourcePoint" />
+            <mxPoint x="699" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-223" value="Complete Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-224" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ohvGNoViEB5J8aTvtYbx-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="250" as="sourcePoint" />
+            <mxPoint x="880" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-225" value="Message&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Receiver&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-226" value="Send Through" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ohvGNoViEB5J8aTvtYbx-227" value="Message" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
